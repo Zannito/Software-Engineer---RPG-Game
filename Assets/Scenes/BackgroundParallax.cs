@@ -6,6 +6,11 @@ public class BackgroundParallax : MonoBehaviour
     [SerializeField] private float moveSpeed = 3.5f;
     [SerializeField] private float backgroundWidth = 19.2f; // Sesuaikan dengan lebar sprite/gambar lu
 
+    // SAKTI: Biar pas nge-loop gak kepanggil dobel gara-gara ada 2 background
+    [Header("--- Loop Trigger Settings ---")]
+    [Tooltip("Centang ini HANYA pada SATU background saja (misal objek lantai utama) biar gak manggil spawn dobel, cok!")]
+    [SerializeField] private bool isLoopTriggerMaster = false;
+
     private Vector3 startPosition;
     private bool canMove = true;
 
@@ -27,6 +32,12 @@ public class BackgroundParallax : MonoBehaviour
         if (transform.position.x <= startPosition.x - backgroundWidth)
         {
             ResetPosition();
+
+            // SAKTI: Cuma objek yang dicentang 'isLoopTriggerMaster' yang berhak ngebangunin monster!
+            if (isLoopTriggerMaster && GameplayManager.Instance != null)
+            {
+                GameplayManager.Instance.OnMapLoopTriggered();
+            }
         }
     }
 
