@@ -5,6 +5,7 @@ Game RPG idle interaktif yang berfokus pada perkembangan karakter, pertempuran m
 Jika Anda ingin mencoba memainkan game ini:
 - Kunjungi tab Releases di sisi kanan halaman repositori ini.
 - Unduh seluruh file yang tersedia pada rilis terbaru.
+- ekstrak file yang telah diunduh.
 - Jalankan file eksekutabel (.exe) untuk mulai bermain.
 
 📂 Struktur Proyek
