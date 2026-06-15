@@ -1,4 +1,4 @@
-Virus Apocalypse RPG 🦠
+Virus Slayer: Pandemic Reborn 🦠
 Game RPG idle interaktif yang berfokus pada perkembangan karakter, pertempuran melawan virus, dan manajemen sumber daya.
 
 📥 Cara Memainkan
