@@ -14,3 +14,7 @@
     * Contributed to project planning by defining features and shaping game concept.
     * Implemented game algorithms and ensuring a structured development workflow.
     * Maintained the project's Notion to centralize documentation.
+* **Pandya Zannito Prawoko** — *Software Engineer*
+    * Fully responsible for writing and maintaining the main codebase.
+    * Implemented core algorithms and ensured smooth back-end operations.
+    * Handled debugging and optimization at the code structure level.
